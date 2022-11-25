@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.examen"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml:7:5-33:19
+14        android:allowBackup="true"
+14-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.8.0] C:\Users\crism\.gradle\caches\transforms-3\0638d9dacb5fd10604e28ec2b4d3c80b\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+16        android:dataExtractionRules="@xml/data_extraction_rules"
+16-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml:9:9-65
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:fullBackupContent="@xml/backup_rules"
+19-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml:10:9-54
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml:11:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml:12:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml:13:9-54
+23        android:supportsRtl="true"
+23-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml:14:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.Examen" >
+25-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml:15:9-44
+26        <activity
+26-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml:17:9-19:40
+27            android:name="com.example.examen.Activity2"
+27-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml:18:13-38
+28            android:exported="false" />
+28-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml:19:13-37
+29        <activity
+29-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml:20:9-28:20
+30            android:name="com.example.examen.Splash"
+30-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml:21:13-35
+31            android:exported="true" >
+31-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml:22:13-36
+32            <intent-filter>
+32-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml:23:13-27:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml:24:17-69
+33-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml:24:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml:26:17-77
+35-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml:26:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml:29:9-32:20
+39            android:name="com.example.examen.MainActivity"
+39-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml:30:13-41
+40            android:exported="true" >
+40-->C:\Users\crism\AndroidStudioProjects\Examen\app\src\main\AndroidManifest.xml:31:13-36
+41        </activity>
+42
+43        <provider
+43-->[com.squareup.picasso:picasso:2.71828] C:\Users\crism\.gradle\caches\transforms-3\463ab7256afb3b584e41185fe9baecc7\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+44            android:name="com.squareup.picasso.PicassoProvider"
+44-->[com.squareup.picasso:picasso:2.71828] C:\Users\crism\.gradle\caches\transforms-3\463ab7256afb3b584e41185fe9baecc7\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+45            android:authorities="com.example.examen.com.squareup.picasso"
+45-->[com.squareup.picasso:picasso:2.71828] C:\Users\crism\.gradle\caches\transforms-3\463ab7256afb3b584e41185fe9baecc7\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+46            android:exported="false" />
+46-->[com.squareup.picasso:picasso:2.71828] C:\Users\crism\.gradle\caches\transforms-3\463ab7256afb3b584e41185fe9baecc7\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+47        <provider
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\crism\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+48            android:name="androidx.startup.InitializationProvider"
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\crism\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+49            android:authorities="com.example.examen.androidx-startup"
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\crism\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+50            android:exported="false" >
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\crism\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+51            <meta-data
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\crism\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\crism\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+53                android:value="androidx.startup" />
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\crism\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+54            <meta-data
+54-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\crism\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+55                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+55-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\crism\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+56                android:value="androidx.startup" />
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\crism\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+57        </provider>
+58    </application>
+59
+60</manifest>
